@@ -1,16 +1,3 @@
-# rbenv
-eval "$(rbenv init -)"
-
-# pyenv
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-
-# node moduled path
-export PATH=./node_modules/.bin:$PATH
-
-# alias
-alias be='bundle exec'
-
 # bash color
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
